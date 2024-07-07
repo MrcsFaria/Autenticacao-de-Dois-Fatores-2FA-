@@ -45,18 +45,14 @@ Pré-requisitos: Python
 git clone https://github.com/MrcsFaria/Autenticacao-de-Dois-Fatores-2FA-
 
 # Navegue até o diretório do projeto:
-```
 cd Autenticacao-de-Dois-Fatores-2FA-
-```
 
 # Instale as dependências necessárias
 pip install sqlite3 tkinter customtkinter tkinter smtplib pillow python-dotenv
 
 # Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis:
-```
 EMAIL=seuemail@exemplo.com
 SENHA=suasenha
-```
 
 # executar o projeto
 python main.py
